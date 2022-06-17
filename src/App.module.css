@@ -1,0 +1,116 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.wrapperNewTask{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 4rem; 
+   width:47.68rem;
+
+}
+
+.wrapperNewTask input{
+    border: 0;
+    resize: none;
+    width: 46rem ;
+    height: 3.37rem;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: -27px;
+    margin-right: 8px;
+    background: var(--gray-500);
+}
+
+.wrapperNewTask button{ 
+    border: 0;
+    resize: none;
+    cursor: pointer;
+    padding: 1rem ;
+    width: 5.625rem;
+    height: 3.25rem;
+    border-radius: 8px;
+    margin-top: -27px;
+    background: var(--blue-500);
+    color: var(--gray-100);
+
+    display: flex;
+    align-items: center;  
+    
+}
+
+.wrapperNewTask button div{ 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+ 
+.wrapperTasks{
+    align-items: center;
+    justify-content: center;  
+    width:47.68rem;
+}
+
+.wrapperTotalTasks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    margin-bottom: 4rem; 
+} 
+
+.wrapperTotalTasks div{
+    margin-left: 0.5rem ;
+    display: flex;
+    flex-direction: row;
+}
+.wrapperTotalTasks div >div{ 
+    justify-content: center;
+    align-items: center;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    font-weight: 700;
+    font-size: 0.875rem ;
+    height: 1.1875rem;
+    width: 1.5625rem;
+    border-radius: 999px;
+}
+
+.wrapperTotalTasks span {
+    color: var(--blue-100);
+    font-weight: 700;
+    font-size: 0.875rem ;
+}
+
+.wrapperTotalTasks span + span {
+    color: var(--purple-100);
+    font-weight: 700;
+    font-size: 0.875rem ;
+}
+
+.wrapperNoTasks{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;  
+}
+
+.wrapperNoTasks strong{
+   margin-top: 1rem;
+}
+/* 
+@media (max-width:768px) {
+
+    html{
+        font-size: 87.5%;
+    }
+
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+    
+} */
