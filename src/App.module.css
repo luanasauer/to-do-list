@@ -10,7 +10,7 @@ main{
    justify-content: center;
    align-items: center;
    margin-bottom: 4rem; 
-   width:47.68rem;
+   width:46rem;
 
 }
 
@@ -24,6 +24,8 @@ main{
     margin-top: -27px;
     margin-right: 8px;
     background: var(--gray-500);
+   color: var(--gray-100);
+
 }
 
 .wrapperNewTask button{ 
@@ -53,7 +55,7 @@ main{
 .wrapperTasks{
     align-items: center;
     justify-content: center;  
-    width:47.68rem;
+    width:46rem;
 }
 
 .wrapperTotalTasks{
@@ -69,16 +71,19 @@ main{
     display: flex;
     flex-direction: row;
 }
-.wrapperTotalTasks div >div{ 
+.wrapperTotalTasks div > div{  
     justify-content: center;
     align-items: center;
     background: var(--gray-400);
     color: var(--gray-200);
     font-weight: 700;
     font-size: 0.875rem ;
-    height: 1.1875rem;
-    width: 1.5625rem;
+    min-height: 1.1875rem;
+    min-width: 1.5625rem;
     border-radius: 999px;
+    padding-left: 2px;
+    padding-right: 2px;
+
 }
 
 .wrapperTotalTasks span {
@@ -87,10 +92,11 @@ main{
     font-size: 0.875rem ;
 }
 
-.wrapperTotalTasks span + span {
+.wrapperTotalTasks .done {
     color: var(--purple-100);
     font-weight: 700;
     font-size: 0.875rem ;
+
 }
 
 .wrapperNoTasks{
