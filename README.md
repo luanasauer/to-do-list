@@ -13,3 +13,6 @@ Funcionalidades:
 - Mostrar o progresso de conclusão das tarefas
   
 
+<div align="center" >
+  <img src="./src/assets/gif3.gif">
+</div>
