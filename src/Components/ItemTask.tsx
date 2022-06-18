@@ -33,16 +33,12 @@ export function ItemTask({ task, onChange, onDelete }: ItemTaskProps) {
 
                 {task.done &&
                     <>
-                        <del>
-                            {task.name}
-                        </del>
+                        <del>{task.name}</del>
                     </>
                 }
 
                 {!task.done &&
-                    <>
-                        {task.name}
-                    </>
+                    <>{task.name}</>
                 }
             </label>
             <button

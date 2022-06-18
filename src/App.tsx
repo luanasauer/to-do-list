@@ -18,8 +18,8 @@ export function App() {
   const [task, setTask] = useState('');
   const [taskList, setTaskList] = useState<TaskProps[]>(
     [
-      { id: 1, name: 'Comprar pão', done: false },
-      { id: 2, name: 'Comprar bolo', done: true }
+      { id: 1, name: 'Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.', done: false },
+      { id: 2, name: 'Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.', done: true }
     ]);
 
   function handleTaskChange(id: number) {
