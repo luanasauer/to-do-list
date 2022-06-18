@@ -16,3 +16,7 @@ Funcionalidades:
 <div align="center" >
   <img src="./src/assets/gif3.gif">
 </div>
+
+<div align="center" >
+  <img src="./src/assets/exemploUso.gif">
+</div>
